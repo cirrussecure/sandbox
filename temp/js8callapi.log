@@ -1,0 +1,87 @@
+[I 200503 15:14:28 js8callapi:145] starting js8call udp api --------------------
+[I 200503 16:24:18 js8callapi:148] starting js8call udp api --------------------
+[I 200503 16:24:40 js8callapi:112] control-c pressed, program ended --------------------
+[E 200503 16:24:40 js8callapi:151] name 'e' is not defined
+    Traceback (most recent call last):
+      File "js8callapi.py", line 110, in listen
+        content, addr = self.sock.recvfrom(65500)
+    KeyboardInterrupt
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "js8callapi.py", line 149, in <module>
+        main()
+      File "js8callapi.py", line 137, in main
+        s.listen()
+      File "js8callapi.py", line 113, in listen
+        logger.exception(e)
+    NameError: name 'e' is not defined
+[I 200503 16:26:24 js8callapi:147] starting js8call udp api --------------------
+[I 200503 16:28:10 js8callapi:112] control-c pressed, program ended --------------------
+[I 200503 16:32:52 js8callapi:148] starting js8call udp api --------------------
+[I 200503 16:32:55 js8callapi:75] message process: 
+[I 200503 16:33:10 js8callapi:75] message process: 
+[I 200503 16:33:25 js8callapi:75] message process: 
+[I 200503 16:33:40 js8callapi:75] message process: 
+[I 200503 16:33:55 js8callapi:75] message process: 
+[I 200503 16:34:10 js8callapi:75] message process: 
+[I 200503 16:34:14 js8callapi:75] message process: 
+[I 200503 16:34:14 js8callapi:75] message process: 
+[I 200503 16:34:15 js8callapi:75] message process: 
+[I 200503 16:34:15 js8callapi:75] message process: 
+[I 200503 16:34:25 js8callapi:75] message process: 
+[I 200503 16:34:40 js8callapi:113] control-c pressed, program ended --------------------
+[I 200503 16:38:09 js8callapi:148] starting js8call udp api --------------------
+[I 200503 16:38:10 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538290732, 'VERSION': '2.1.1', '_ID': '1588182677036'}, 'type': 'PING', 'value': ''}
+[I 200503 16:38:25 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538305729, 'VERSION': '2.1.1', '_ID': '1588182692033'}, 'type': 'PING', 'value': ''}
+[I 200503 16:38:40 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538320729, 'VERSION': '2.1.1', '_ID': '1588182707033'}, 'type': 'PING', 'value': ''}
+[I 200503 16:38:55 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538335733, 'VERSION': '2.1.1', '_ID': '1588182722037'}, 'type': 'PING', 'value': ''}
+[I 200503 16:39:10 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538350729, 'VERSION': '2.1.1', '_ID': '1588182737033'}, 'type': 'PING', 'value': ''}
+[I 200503 16:39:25 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538365731, 'VERSION': '2.1.1', '_ID': '1588182752035'}, 'type': 'PING', 'value': ''}
+[I 200503 16:39:40 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538380728, 'VERSION': '2.1.1', '_ID': '1588182767032'}, 'type': 'PING', 'value': ''}
+[I 200503 16:39:44 js8callapi:75] message process: {'params': {'CALL': 'NR5G', 'DIAL': 7078000, 'GRID': 'EM82', 'OFFSET': 950, 'SNR': -6, '_ID': '1588182770432'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:39:44 js8callapi:75] message process: {'params': {'CALL': 'KX4XT', 'DIAL': 7078000, 'GRID': '', 'OFFSET': 1437, 'SNR': -19, '_ID': '1588182770432'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:39:55 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538395731, 'VERSION': '2.1.1', '_ID': '1588182782035'}, 'type': 'PING', 'value': ''}
+[I 200503 16:39:57 js8callapi:75] message process: {'params': {'CALL': 'KE0SBF', 'DIAL': 7078000, 'GRID': 'EM67XV', 'OFFSET': 906, 'SNR': -2, '_ID': '1588182783378'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:40:10 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538410731, 'VERSION': '2.1.1', '_ID': '1588182797035'}, 'type': 'PING', 'value': ''}
+[I 200503 16:40:14 js8callapi:75] message process: {'params': {'CALL': 'KO4BRC', 'DIAL': 7078000, 'GRID': '', 'OFFSET': 559, 'SNR': 1, '_ID': '1588182800406'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:40:14 js8callapi:75] message process: {'params': {'CALL': 'WB4EPG', 'DIAL': 7078000, 'GRID': '', 'OFFSET': 658, 'SNR': -12, '_ID': '1588182800407'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:40:15 js8callapi:75] message process: {'params': {'CALL': 'W9DRR', 'DIAL': 7078000, 'GRID': '', 'OFFSET': 707, 'SNR': -11, '_ID': '1588182801451'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:40:15 js8callapi:75] message process: {'params': {'CALL': 'WE4SEL', 'DIAL': 7078000, 'GRID': 'EM54', 'OFFSET': 900, 'SNR': -5, '_ID': '1588182801451'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:40:15 js8callapi:75] message process: {'params': {'CALL': 'NR5G', 'DIAL': 7078000, 'GRID': 'EM82', 'OFFSET': 950, 'SNR': -9, '_ID': '1588182801451'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:40:15 js8callapi:75] message process: {'params': {'CALL': 'KC2RGW', 'DIAL': 7078000, 'GRID': 'FN43', 'OFFSET': 1295, 'SNR': -12, '_ID': '1588182801452'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:40:25 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538425731, 'VERSION': '2.1.1', '_ID': '1588182812035'}, 'type': 'PING', 'value': ''}
+[I 200503 16:40:40 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538440729, 'VERSION': '2.1.1', '_ID': '1588182827033'}, 'type': 'PING', 'value': ''}
+[I 200503 16:40:49 js8callapi:75] message process: {'params': {'CALL': 'KD9JTU', 'DIAL': 7078000, 'GRID': 'EM69', 'OFFSET': 1611, 'SNR': -15, '_ID': '1588182835417'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:40:55 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538455699, 'VERSION': '2.1.1', '_ID': '1588182842003'}, 'type': 'PING', 'value': ''}
+[I 200503 16:41:10 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538470702, 'VERSION': '2.1.1', '_ID': '1588182857006'}, 'type': 'PING', 'value': ''}
+[I 200503 16:41:25 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538485702, 'VERSION': '2.1.1', '_ID': '1588182872006'}, 'type': 'PING', 'value': ''}
+[I 200503 16:41:40 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538500700, 'VERSION': '2.1.1', '_ID': '1588182887004'}, 'type': 'PING', 'value': ''}
+[I 200503 16:41:44 js8callapi:75] message process: {'params': {'CALL': 'KN4TFR', 'DIAL': 7078000, 'GRID': 'EM75', 'OFFSET': 572, 'SNR': -4, '_ID': '1588182890356'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:41:45 js8callapi:75] message process: {'params': {'PTT': True, 'UTC': 1588538505000, '_ID': '1588182891304'}, 'type': 'RIG.PTT', 'value': 'on'}
+[I 200503 16:41:45 js8callapi:75] message process: {'params': {'TONES': [4, 2, 5, 6, 1, 3, 0, 3, 5, 1, 0, 2, 0, 3, 0, 0, 1, 7, 6, 3, 7, 1, 5, 0, 2, 0, 3, 5, 2, 7, 4, 5, 2, 0, 1, 3, 4, 2, 5, 6, 1, 3, 0, 3, 4, 2, 3, 5, 1, 5, 1, 0, 7, 2, 1, 3, 4, 3, 5, 6, 4, 4, 3, 6, 4, 3, 3, 3, 5, 7, 4, 4, 4, 2, 5, 6, 1, 3, 0], '_ID': '1588182891304'}, 'type': 'TX.FRAME', 'value': ''}
+[I 200503 16:41:55 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538515700, 'VERSION': '2.1.1', '_ID': '1588182902004'}, 'type': 'PING', 'value': ''}
+[I 200503 16:41:58 js8callapi:75] message process: {'params': {'PTT': False, 'UTC': 1588538518421, '_ID': '1588182904725'}, 'type': 'RIG.PTT', 'value': 'off'}
+[I 200503 16:42:10 js8callapi:113] control-c pressed, program ended --------------------
+[I 200503 16:42:16 js8callapi:149] starting js8call udp api --------------------
+[I 200503 16:42:25 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538545702, 'VERSION': '2.1.1', '_ID': '1588182932006'}, 'type': 'PING', 'value': ''}
+[I 200503 16:42:27 js8callapi:75] message process: {'params': {'CALL': 'KD8SKZ', 'DIAL': 7078000, 'GRID': '', 'OFFSET': 708, 'SNR': -10, '_ID': '1588182933416'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:42:30 js8callapi:75] message process: {'params': {'PTT': True, 'UTC': 1588538550033, '_ID': '1588182936337'}, 'type': 'RIG.PTT', 'value': 'on'}
+[I 200503 16:42:30 js8callapi:75] message process: {'params': {'TONES': [4, 2, 5, 6, 1, 3, 0, 4, 5, 6, 0, 6, 4, 4, 0, 5, 1, 6, 0, 3, 0, 7, 1, 3, 4, 2, 5, 0, 6, 1, 3, 6, 1, 0, 5, 7, 4, 2, 5, 6, 1, 3, 0, 0, 2, 4, 1, 0, 6, 2, 0, 7, 6, 0, 3, 2, 2, 5, 4, 3, 0, 5, 5, 4, 6, 0, 3, 3, 4, 1, 4, 4, 4, 2, 5, 6, 1, 3, 0], '_ID': '1588182936337'}, 'type': 'TX.FRAME', 'value': ''}
+[I 200503 16:42:40 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538560702, 'VERSION': '2.1.1', '_ID': '1588182947006'}, 'type': 'PING', 'value': ''}
+[I 200503 16:42:43 js8callapi:75] message process: {'params': {'PTT': False, 'UTC': 1588538563355, '_ID': '1588182949659'}, 'type': 'RIG.PTT', 'value': 'off'}
+[I 200503 16:42:55 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538575702, 'VERSION': '2.1.1', '_ID': '1588182962006'}, 'type': 'PING', 'value': ''}
+[I 200503 16:42:59 js8callapi:75] message process: {'params': {'CALL': 'W9DRR', 'DIAL': 7078000, 'GRID': '', 'OFFSET': 809, 'SNR': -5, '_ID': '1588182965385'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:43:00 js8callapi:75] message process: {'params': {'CALL': 'KO4BRC', 'DIAL': 7078000, 'GRID': '', 'OFFSET': 908, 'SNR': -3, '_ID': '1588182966361'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:43:10 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538590703, 'VERSION': '2.1.1', '_ID': '1588182977007'}, 'type': 'PING', 'value': ''}
+[I 200503 16:43:25 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538605700, 'VERSION': '2.1.1', '_ID': '1588182992004'}, 'type': 'PING', 'value': ''}
+[I 200503 16:43:27 js8callapi:75] message process: {'params': {'CALL': 'KE0SBF', 'DIAL': 7078000, 'GRID': 'EM67XV', 'OFFSET': 606, 'SNR': -6, '_ID': '1588182993365'}, 'type': 'RX.SPOT', 'value': ''}
+[I 200503 16:43:40 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538620703, 'VERSION': '2.1.1', '_ID': '1588183007007'}, 'type': 'PING', 'value': ''}
+[I 200503 16:43:55 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538635699, 'VERSION': '2.1.1', '_ID': '1588183022003'}, 'type': 'PING', 'value': ''}
+[I 200503 16:44:10 js8callapi:75] message process: {'params': {'NAME': 'JS8Call', 'UTC': 1588538650699, 'VERSION': '2.1.1', '_ID': '1588183037003'}, 'type': 'PING', 'value': ''}
+[I 200503 16:44:25 js8callapi:114] control-c pressed, program ended --------------------
+[I 200503 16:59:16 js8callapi:151] starting js8call udp api --------------------
+[I 200503 16:59:40 js8callapi:115] control-c pressed, program ended --------------------
+[I 200503 17:21:39 js8callapi:151] starting js8call udp api --------------------
+[I 200503 17:22:25 js8callapi:115] control-c pressed, program ended --------------------
