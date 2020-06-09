@@ -1,3 +1,6 @@
+
+# source(6/2020): https://dev.to/abdurrahmaanj/building-an-oop-calculator-and-what-it-means-to-write-a-widget-library-4560
+
 from tkinter import *
 
 BUTTON_WIDTH = 4
