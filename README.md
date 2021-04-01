@@ -1,6 +1,10 @@
 # sandbox
 
 This is where I experiment and explore.
+
+# Yes! It works out of the box. 
+Indeed nothing to add except markdown header tags. The result is table of content button that is fixed on the right upper hand side of the display while scrolling. Right click it and a toc drops down But I could find no doc's?? It takes a few minutes to parse after a change but there it is.
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar sed mauris porta vestibulum. Pellentesque auctor porttitor lacus, quis facilisis nulla porttitor eu. Nullam malesuada enim quis est posuere, non posuere mauris ultrices. Integer pulvinar massa sed rhoncus porta. Vivamus quis lorem posuere, pellentesque nisi sed, aliquam leo. Suspendisse nunc felis, hendrerit sit amet euismod vitae, elementum non libero. Vestibulum faucibus ut dolor at tempor. Ut vehicula dignissim metus, non ultrices odio maximus eu. Phasellus a elit blandit, cursus augue non, volutpat urna. Maecenas convallis lacinia purus ac imperdiet.
 
 # Sed venenatis
