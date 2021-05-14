@@ -8,7 +8,8 @@ These are schmatics from VK3EY videos: [Amateur Radio VK3YE](https://www.youtube
 
 [Bigger Toy 40m CW QRP transceiver (VK3YE).pdf](https://github.com/cirrussecure/sandbox/blob/2a151365a2b329de045c6e8d988bfe130ccb4aec/Bigger%20Toy%2040m%20CW%20QRP%20transceiver%20(VK3YE).pdf)
 
-
+For my reference:
+[Github markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 
 Yes! It works out of the box. Never noticed it before.
